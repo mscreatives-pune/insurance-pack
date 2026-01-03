@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="mr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30 Days Insurance Branding Pack | MS Creatives</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0f172a',
+                            royal: '#1e3a8a',
+                            gold: '#d97706',
+                            goldLight: '#fbbf24',
+                            success: '#16a34a',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Noto Sans Devanagari', 'sans-serif'],
+                    },
+                    backgroundImage: {
+                        'premium-gradient': 'linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%)',
+                        'gold-gradient': 'linear-gradient(to right, #d97706, #fbbf24, #d97706)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+        }
+        .text-gradient {
+            background: linear-gradient(to right, #fbbf24, #f59e0b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .vs-badge {
+            background: linear-gradient(135deg, #dc2626, #991b1b);
+            color: white;
+            padding: 0.5rem;
+            border-radius: 50%;
+            width: 3rem;
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            box-shadow: 0 0 15px rgba(220, 38, 38, 0.5);
+            z-index: 10;
+        }
+        .btn-shine {
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-shine::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(to right, transparent, rgba(255,255,255,0.3), transparent);
+            transform: rotate(45deg);
+            animation: shine 3s infinite;
+        }
+        @keyframes shine {
+            0% { left: -100%; }
+            20% { left: 100%; }
+            100% { left: 100%; }
+        }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        video { display: block; width: 100%; height: 100%; object-fit: cover; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased pb-24 md:pb-0">
+
+    <!-- Top Sticky Offer (High Urgency) -->
+    <div class="bg-gradient-to-r from-red-600 to-red-800 text-white text-center py-2 px-4 text-xs md:text-sm font-bold tracking-widest uppercase flex justify-center items-center gap-2 shadow-lg sticky top-0 z-50">
+        <span class="animate-pulse">⚠️</span> शेवटची संधी: फक्त 9 सीट्स शिल्लक! (Offer Ends Tonight)
+    </div>
+
+    <!-- Hero Section -->
+    <header class="bg-premium-gradient text-white pt-12 pb-20 px-4 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden opacity-20 pointer-events-none">
+            <div class="absolute top-10 left-10 w-64 h-64 bg-blue-500 rounded-full blur-[100px]"></div>
+            <div class="absolute bottom-10 right-10 w-80 h-80 bg-brand-gold rounded-full blur-[120px]"></div>
+        </div>
+
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10">
+            <div class="text-center md:text-left animate__animated animate__fadeInUp">
+                <!-- Competitor Alert -->
+                <div class="inline-block bg-red-500/20 border border-red-500/50 rounded-full px-4 py-1.5 mb-6 backdrop-blur-md">
+                    <span class="text-red-300 text-xs font-black tracking-widest uppercase flex items-center gap-2">
+                        <i class="fas fa-exclamation-circle animate-pulse"></i> तुमचे स्पर्धक हे वापरत आहेत, तुम्ही मागे राहू नका!
+                    </span>
+                </div>
+                
+                <h1 class="text-4xl md:text-6xl font-black mb-6 leading-tight drop-shadow-xl">
+                    आता पॉलिसी 'मागावी' लागणार नाही, <br>
+                    ग्राहक स्वतः <span class="text-gradient underline decoration-brand-gold/30 underline-offset-8">विचारणा करेल!</span>
+                </h1>
+                
+                <p class="text-lg text-slate-200 mb-8 font-light leading-relaxed">
+                    तुमचे WhatsApp स्टेटस हेच तुमचे <strong>"Digital Office"</strong> आहे. त्याला <strong>'Professional'</strong> बनवा आणि 30 दिवसांत फरक पहा.
+                </p>
+
+                <div class="flex items-center justify-center md:justify-start gap-6 mb-8">
+                    <div class="text-center">
+                        <p class="text-xs text-slate-400 line-through mb-1">Regular Price</p>
+                        <p class="text-xl text-slate-400 font-bold decoration-red-500 line-through decoration-2">₹3,500</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-xs text-brand-goldLight font-bold mb-1 uppercase animate-pulse">Today's Deal</p>
+                        <p class="text-4xl font-black text-white">₹499<span class="text-lg font-normal text-slate-300">/-</span></p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="https://wa.me/9175098191?text=I_Want_30Days_Insurance_Pack" class="btn-shine bg-gradient-to-r from-brand-gold to-yellow-500 text-black font-black py-4 px-10 rounded-full shadow-[0_0_20px_rgba(245,158,11,0.4)] hover:shadow-[0_0_30px_rgba(245,158,11,0.6)] transition-all flex items-center justify-center gap-2 text-lg transform hover:-translate-y-1">
+                        <i class="fab fa-whatsapp text-xl"></i> YES! मला पॅक हवा आहे
+                    </a>
+                </div>
+                <p class="text-xs text-slate-400 mt-4"><i class="fas fa-check-circle text-green-400"></i> Join 500+ Smart Agents Today</p>
+            </div>
+
+            <!-- Hero Visual -->
+            <div class="hidden md:block relative animate__animated animate__fadeInRight">
+                <div class="grid grid-cols-2 gap-4 transform rotate-6 hover:rotate-0 transition-transform duration-700 ease-out scale-90">
+                    <div class="space-y-4 mt-12">
+                        <!-- Updated Video Source with URL Encoding -->
+                        <div class="rounded-xl overflow-hidden border-2 border-slate-600/50 shadow-2xl bg-black">
+                            <video class="w-full h-full object-cover opacity-90" autoplay loop muted playsinline><source src="WhatsApp%20Video%202025-12-28%20at%2012.58.52%20PM.mp4" type="video/mp4"></video>
+                        </div>
+                        <div class="rounded-xl overflow-hidden border-2 border-slate-600/50 shadow-2xl bg-black">
+                            <video class="w-full h-full object-cover opacity-90" autoplay loop muted playsinline><source src="videos/DAY_22_1.mp4" type="video/mp4"></video>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <!-- URL Encoded filename for GitHub Compatibility -->
+                        <div class="rounded-xl overflow-hidden border-2 border-slate-600/50 shadow-2xl bg-black">
+                            <video class="w-full h-full object-cover opacity-90" autoplay loop muted playsinline><source src="insu%20.mp4" type="video/mp4"></video>
+                        </div>
+                        <div class="rounded-xl overflow-hidden border-4 border-brand-gold shadow-[0_0_30px_rgba(245,158,11,0.3)] bg-black relative">
+                            <video class="w-full h-full object-cover" autoplay loop muted playsinline><source src="videos/DAY_24_1.mp4" type="video/mp4"></video>
+                            <div class="absolute bottom-4 left-0 right-0 text-center">
+                                <span class="bg-black/70 text-brand-goldLight text-[10px] px-3 py-1 rounded-full font-bold uppercase tracking-wider border border-brand-gold/30">High Quality Audio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- NEW: Visualization Section (FOMO TRIGGER) -->
+    <section class="py-20 px-4 bg-white border-b border-slate-200">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-3xl font-black text-slate-900 mb-12">उद्या सकाळी तुमच्यासोबत काय घडेल? <br>(निर्णय तुमचा आहे!)</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Option A: Pain -->
+                <div class="bg-slate-100 p-8 rounded-3xl border border-slate-200 opacity-80 hover:opacity-100 transition-all">
+                    <div class="text-6xl mb-6">😰</div>
+                    <h3 class="text-xl font-bold text-slate-600 mb-4">पर्याय १: पॅक शिवाय (जुनी पद्धत)</h3>
+                    <ul class="text-left space-y-3 text-slate-500 text-sm">
+                        <li class="flex gap-2"><i class="fas fa-times text-red-400 mt-1"></i> सकाळी उठून "काय स्टेटस ठेवू?" याचे टेन्शन.</li>
+                        <li class="flex gap-2"><i class="fas fa-times text-red-400 mt-1"></i> कंटाळवाणा फोटो स्टेटस ठेवणे.</li>
+                        <li class="flex gap-2"><i class="fas fa-times text-red-400 mt-1"></i> क्लायंट्स स्टेटस 'Skip' करतात.</li>
+                        <li class="flex gap-2"><i class="fas fa-times text-red-400 mt-1"></i> <strong>रिझल्ट: शून्य लीड्स आणि निराशा.</strong></li>
+                    </ul>
+                </div>
+
+                <!-- Option B: Gain -->
+                <div class="bg-blue-50 p-8 rounded-3xl border-2 border-brand-royal shadow-2xl transform md:scale-105 z-10 relative">
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-500 text-white px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wide shadow-lg">Smart Choice</div>
+                    <div class="text-6xl mb-6">😎</div>
+                    <h3 class="text-xl font-bold text-brand-royal mb-4">पर्याय २: पॅक सोबत (स्मार्ट पद्धत)</h3>
+                    <ul class="text-left space-y-3 text-slate-800 font-medium text-sm">
+                        <li class="flex gap-2"><i class="fas fa-check-circle text-green-600 mt-1"></i> सकाळी रेडिमेड "ऑडिओ स्टेटस" तयार असेल.</li>
+                        <li class="flex gap-2"><i class="fas fa-check-circle text-green-600 mt-1"></i> तुम्ही 'Professional' आणि 'Expert' दिसता.</li>
+                        <li class="flex gap-2"><i class="fas fa-check-circle text-green-600 mt-1"></i> क्लायंट्स स्वतःहून रिप्लाय देतात.</li>
+                        <li class="flex gap-2"><i class="fas fa-check-circle text-green-600 mt-1"></i> <strong>रिझल्ट: आत्मविश्वास आणि नवीन बिझनेस!</strong></li>
+                    </ul>
+                    <div class="mt-8">
+                        <a href="https://wa.me/9175098191?text=I_Want_30Days_Insurance_Pack" class="inline-block bg-brand-royal text-white px-6 py-2 rounded-full font-bold text-sm shadow-lg hover:bg-brand-dark transition-all">
+                            मला स्मार्ट बनायचं आहे <i class="fas fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SECTION: HOW IT WORKS (Simple Steps) -->
+    <section class="py-16 px-4 bg-slate-50">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl font-black text-slate-900">फक्त ३ सोप्या स्टेप्स मध्ये काम सुरू!</h2>
+                <p class="text-slate-500 text-sm mt-1">एडिटिंग किंवा टेक्निकल नॉलेजची अजिबात गरज नाही.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Step 1 -->
+                <div class="text-center p-6 bg-white rounded-2xl border border-slate-200 shadow-sm">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                    <h3 class="text-base font-bold text-slate-800 mb-1">ऑर्डर बुक करा</h3>
+                    <p class="text-xs text-slate-500">WhatsApp बटन वर क्लिक करून फक्त ₹499 पेमेंट करा.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="text-center p-6 bg-white rounded-2xl border border-slate-200 shadow-sm">
+                    <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                    <h3 class="text-base font-bold text-slate-800 mb-1">फोटो आणि नाव पाठवा</h3>
+                    <p class="text-xs text-slate-500">त्याच चॅटवर तुमचा एक चांगला फोटो आणि नाव पाठवा.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="text-center p-6 bg-white rounded-2xl border border-slate-200 shadow-sm">
+                    <div class="w-12 h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                    <h3 class="text-base font-bold text-slate-800 mb-1">30 व्हिडिओ मिळवा</h3>
+                    <p class="text-xs text-slate-500">24 तासांच्या आत 30 रेडिमेड व्हिडिओ तुमच्या WhatsApp वर मिळतील.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Psychology Section -->
+    <section class="py-20 px-4 bg-brand-dark text-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-brand-royal/20 blur-[150px] rounded-full"></div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-brand-gold/10 blur-[150px] rounded-full"></div>
+
+        <div class="max-w-5xl mx-auto relative z-10">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-black leading-tight">
+                    लोक <span class="text-brand-gold">पॉलिसी</span> का घेत नाहीत?
+                </h2>
+                <p class="text-slate-400 mt-2 text-sm">कारण फक्त 'फायदे' सांगून पॉलिसी विकली जात नाही. त्यासाठी लागते सायकॉलॉजी.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-white/5 p-8 rounded-2xl border border-white/10 hover:border-brand-primary/50 transition-all">
+                    <div class="text-4xl mb-4 text-brand-primary"><i class="fas fa-handshake"></i></div>
+                    <h3 class="text-xl font-bold text-white mb-2">1. विश्वासाचा अभाव (Lack of Trust)</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">ग्राहकाला वाटते एजंट फक्त कमिशनसाठी आला आहे. आमचे ऑडिओ पोस्टर्स तुमची 'ब्रँड इमेज' बनवून लोकांचा विश्वास जिंकतात.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl border border-white/10 hover:border-red-500/50 transition-all">
+                    <div class="text-4xl mb-4 text-red-500"><i class="fas fa-exclamation-triangle"></i></div>
+                    <h3 class="text-xl font-bold text-white mb-2">2. गांभीर्याचा अभाव (Lack of Fear)</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">ग्राहकाला उद्याची काळजी नसते. आमचे 'Emotional Audio' त्यांना वास्तवाची जाणीव करून देतात आणि फॅमिलीसाठी निर्णय घ्यायला भाग पाडतात.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Samples -->
+    <section id="samples" class="py-20 px-4 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-center text-3xl font-black text-slate-900 mb-12">🎥 ऑडिओ पोस्टर क्वालिटी पहा 👇</h2>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <!-- Video 1: Tea & Talk -->
+                <div class="group relative rounded-xl overflow-hidden shadow-lg border border-slate-200 bg-black aspect-[9/16]">
+                    <video class="w-full h-full object-cover lazy-video" controls preload="none" controlsList="nodownload" data-src="videos/DAY_24_1.mp4"></video>
+                    <div class="absolute bottom-0 w-full bg-gradient-to-t from-black to-transparent p-3 pt-8 text-center text-white text-xs font-bold pointer-events-none">चहा आणि चर्चा</div>
+                </div>
+                
+                <!-- Video 2: Loan Protection -->
+                <div class="group relative rounded-xl overflow-hidden shadow-lg border border-slate-200 bg-black aspect-[9/16]">
+                    <video class="w-full h-full object-cover lazy-video" controls preload="none" controlsList="nodownload" data-src="videos/DAY_6_1.mp4"></video>
+                    <div class="absolute bottom-0 w-full bg-gradient-to-t from-black to-transparent p-3 pt-8 text-center text-white text-xs font-bold pointer-events-none">कर्ज सुरक्षा</div>
+                </div>
+                
+                <!-- Video 3: Claim Support -->
+                <div class="group relative rounded-xl overflow-hidden shadow-lg border border-slate-200 bg-black aspect-[9/16]">
+                    <video class="w-full h-full object-cover lazy-video" controls preload="none" controlsList="nodownload" data-src="videos/DAY_16_1.mp4"></video>
+                    <div class="absolute bottom-0 w-full bg-gradient-to-t from-black to-transparent p-3 pt-8 text-center text-white text-xs font-bold pointer-events-none">क्लेम सपोर्ट</div>
+                </div>
+                
+                <!-- Video 4: Policy Audit -->
+                <div class="group relative rounded-xl overflow-hidden shadow-lg border border-slate-200 bg-black aspect-[9/16]">
+                    <video class="w-full h-full object-cover lazy-video" controls preload="none" controlsList="nodownload" data-src="videos/DAY_22_1.mp4"></video>
+                    <div class="absolute bottom-0 w-full bg-gradient-to-t from-black to-transparent p-3 pt-8 text-center text-white text-xs font-bold pointer-events-none">पॉलिसी ऑडिट</div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="https://f.io/-dL6xXhd" target="_blank" class="inline-flex items-center gap-2 bg-brand-dark text-white font-bold py-3 px-8 rounded-full shadow-xl hover:bg-slate-800 transition-all border border-slate-700">
+                    <i class="fas fa-play-circle text-brand-gold"></i> आणखी सॅम्पल पहा
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reverse Psychology / Who is this NOT for -->
+    <section class="py-16 px-4 bg-red-50 border-y border-red-100">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-xl font-bold text-red-800 mb-4">🛑 कृपया लक्ष द्या: हा पॅक कोणासाठी नाही?</h2>
+            <p class="text-slate-700 text-sm leading-relaxed mb-6">
+                जर तुम्हाला वाटत असेल की "स्टेटस ठेवून काय होणार?" किंवा ज्यांना स्वतःच्या ग्रोथसाठी दिवसाला ₹१७ पण खर्च करायचे नाहीत, त्यांनी कृपया हा पॅक <strong>घेऊ नये</strong>.
+                <br><br>
+                हा पॅक फक्त त्या <strong>Serious Agents</strong> साठी आहे ज्यांना खरोखर बिझनेस 10X करायचा आहे.
+            </p>
+            <div class="inline-block bg-white px-6 py-2 rounded-full border border-red-200 text-red-600 font-bold text-xs uppercase tracking-wide">Only for Action Takers</div>
+        </div>
+    </section>
+
+    <!-- Roadmap -->
+    <section class="py-16 px-4 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-2xl font-black text-center mb-8 text-slate-900">📅 30 दिवसांचा प्लॅन</h2>
+            <div class="flex md:grid md:grid-cols-4 gap-4 overflow-x-auto pb-4 hide-scrollbar">
+                <div class="min-w-[80%] md:min-w-0 bg-slate-50 p-5 rounded-xl border-l-4 border-blue-500 shadow-sm">
+                    <h3 class="font-bold text-blue-700">Week 1: जागृती</h3>
+                    <p class="text-xs text-slate-500 mt-1">क्लायंटला त्यांच्या गरजांची जाणीव करून देणे.</p>
+                </div>
+                <div class="min-w-[80%] md:min-w-0 bg-slate-50 p-5 rounded-xl border-l-4 border-purple-500 shadow-sm">
+                    <h3 class="font-bold text-purple-700">Week 2: विश्वास</h3>
+                    <p class="text-xs text-slate-500 mt-1">तुमची एक्सपर्ट म्हणून इमेज तयार करणे.</p>
+                </div>
+                <div class="min-w-[80%] md:min-w-0 bg-slate-50 p-5 rounded-xl border-l-4 border-orange-500 shadow-sm">
+                    <h3 class="font-bold text-orange-700">Week 3: उपाय</h3>
+                    <p class="text-xs text-slate-500 mt-1">स्पेशल प्लान्स आणि सोल्युशन्स सांगणे.</p>
+                </div>
+                <div class="min-w-[80%] md:min-w-0 bg-slate-50 p-5 rounded-xl border-l-4 border-green-500 shadow-sm">
+                    <h3 class="font-bold text-green-700">Week 4: ॲक्शन</h3>
+                    <p class="text-xs text-slate-500 mt-1">क्लायंटला निर्णय घ्यायला लावणे.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 px-4 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-2xl font-black text-center mb-10">एजंट मित्रांचा अनुभव</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+                    <p class="text-slate-600 text-sm italic mb-4">"हे ब्रँडिंग मटेरियल खरोखरच 'वर्ल्ड क्लास' आहे."</p>
+                    <div class="font-bold text-sm">- भरत टोणपे <span class="text-xs text-blue-600 font-normal">(C.M. Club)</span></div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+                    <p class="text-slate-600 text-sm italic mb-4">"D.M. Club साठी लागणारे सातत्य या ऑडिओ पोस्टर्स मुळे मिळत आहे."</p>
+                    <div class="font-bold text-sm">- अर्जुन गवळी <span class="text-xs text-green-600 font-normal">(D.M. Club)</span></div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+                    <p class="text-slate-600 text-sm italic mb-4">"एवढ्या कमी किमतीत best quality 30 ऑडिओ पोस्टर्स मिळत आहेत."</p>
+                    <div class="font-bold text-sm">- अमोल काळे <span class="text-xs text-slate-500 font-normal">(Advisor)</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-16 px-4 bg-white border-t border-slate-200">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-2xl font-black text-center mb-8">नेहमी विचारले जाणारे प्रश्न (FAQ)</h2>
+            <div class="space-y-3">
+                <details class="bg-slate-50 p-4 rounded-lg border border-slate-200"><summary class="font-bold cursor-pointer list-none flex justify-between">१. हा नक्की काय प्रकार आहे? यात काय मिळेल? <span>+</span></summary><p class="mt-2 text-sm text-slate-600">हे "Audio Posters" आहेत. म्हणजे फोटोसोबत बॅकग्राउंडला प्रोफेशनल व्हॉइस ओव्हर असेल. हे व्हिडिओ फॉरमॅट (MP4) मध्ये आहेत.</p></details>
+                <details class="bg-slate-50 p-4 rounded-lg border border-slate-200"><summary class="font-bold cursor-pointer list-none flex justify-between">२. हे मंथली सबस्क्रिप्शन आहे का? <span>+</span></summary><p class="mt-2 text-sm text-slate-600">नाही. हे One Time Purchase आहे. फक्त एकदा ₹499 द्यायचे आहेत. लाइफटाइम वापरा.</p></details>
+                <details class="bg-slate-50 p-4 rounded-lg border border-slate-200"><summary class="font-bold cursor-pointer list-none flex justify-between">३. यावर माझा फोटो आणि नंबर असेल का? <span>+</span></summary><p class="mt-2 text-sm text-slate-600">हो, १००%! प्रत्येक ऑडिओ पोस्टरवर तुमचा फोटो, नाव आणि नंबर लावून मिळेल.</p></details>
+                <details class="bg-slate-50 p-4 rounded-lg border border-slate-200"><summary class="font-bold cursor-pointer list-none flex justify-between">४. सॅम्पल बनवून मिळेल का? <span>+</span></summary><p class="mt-2 text-sm text-slate-600">पर्सनल सॅम्पल शक्य नाही. पण वर दिलेले डेमो ऑडिओ पोस्टर्स पहा, सेम तशीच क्वालिटी मिळेल.</p></details>
+                <details class="bg-slate-50 p-4 rounded-lg border border-slate-200"><summary class="font-bold cursor-pointer list-none flex justify-between">५. डिलिव्हरी कधी मिळेल? <span>+</span></summary><p class="mt-2 text-sm text-slate-600">पेमेंट आणि फोटो मिळाल्यावर २४ तासांच्या आत सर्व ऑडिओ पोस्टर्स व्हॉट्सॲपवर मिळतील.</p></details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark text-slate-400 py-12 text-center border-t border-slate-800 mb-20 md:mb-0">
+        <h4 class="text-white font-bold text-lg mb-2">Designed with ❤️ by Team MS Creatives, Pune.</h4>
+        <p class="text-xs opacity-50">&copy; 2025 MS Creatives. All rights reserved.</p>
+    </footer>
+
+    <!-- Sticky Bottom Bar -->
+    <div class="fixed bottom-0 left-0 right-0 z-50 bg-white border-t-4 border-brand-royal shadow-[0_-5px_20px_rgba(0,0,0,0.2)] md:hidden">
+        <div class="bg-red-600 text-white text-[10px] text-center py-1 font-bold animate-pulse">
+            ⚠️ फक्त 9 सीट्स शिल्लक! (Offer Ends Tonight)
+        </div>
+        <div class="p-3 px-4 flex justify-between items-center backdrop-blur-xl bg-white/95">
+            <div class="flex flex-col">
+                <span class="text-[10px] text-slate-400 line-through">₹3,500</span>
+                <div class="flex items-baseline gap-1">
+                    <span class="text-xl font-black text-slate-900">₹499</span>
+                    <span class="text-[10px] bg-green-100 text-green-700 px-1 rounded font-bold">New Year Offer</span>
+                </div>
+            </div>
+            <a href="https://wa.me/9175098191?text=I_Want_30Days_Insurance_Pack" class="btn-shine bg-brand-royal text-white font-bold py-2.5 px-6 rounded-full shadow-lg flex items-center gap-2 text-sm">
+                Book Now <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Lazy Load
+        document.addEventListener("DOMContentLoaded", function() {
+            let lazyVideos = [].slice.call(document.querySelectorAll("video.lazy-video"));
+            if ("IntersectionObserver" in window) {
+                let videoObserver = new IntersectionObserver(function(entries, observer) {
+                    entries.forEach(function(video) {
+                        if (video.isIntersecting) {
+                            if (video.target.getAttribute('data-src')) video.target.src = video.target.getAttribute('data-src');
+                            video.target.load();
+                            video.target.classList.remove("lazy-video");
+                            videoObserver.unobserve(video.target);
+                        }
+                    });
+                });
+                lazyVideos.forEach(function(video) { videoObserver.observe(video); });
+            }
+        });
+
+        // Timer
+        function startCountdown(duration) {
+            let timer = duration, hours, minutes, seconds;
+            setInterval(function () {
+                hours = parseInt(timer / 3600, 10);
+                minutes = parseInt((timer % 3600) / 60, 10);
+                seconds = parseInt(timer % 60, 10);
+                hours = hours < 10 ? "0" + hours : hours;
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+                const heroTimer = document.getElementById('hero-countdown');
+                if(heroTimer) {
+                    heroTimer.children[0].innerText = hours;
+                    heroTimer.children[1].innerText = minutes;
+                    heroTimer.children[2].innerText = seconds;
+                }
+                if (--timer < 0) timer = duration;
+            }, 1000);
+        }
+        window.onload = function () { startCountdown(18000); };
+    </script>
+</body>
+</html>
